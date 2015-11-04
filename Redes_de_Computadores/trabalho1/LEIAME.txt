@@ -1,0 +1,27 @@
+Participantes:
+    Nathan de Melo Cruz    86492
+    Mariane Coelho Robl    86902
+    Robinson Alves
+
+Para a compilacão do código deve-se executar a seguinte linha
+no terminal:
+
+$ gcc atraso.c -lm -o atraso
+
+Para a geração dos gráficos é necessário executar permissão dos scripts
+através dos seguintes comandos:
+
+$ chmod +x Grafico_1.sh
+$ chmod +x Grafico_2.sh
+
+Para a execução dos scripts use:
+
+$ ./Grafico_1.sh atraso > grafico_1.txt
+$ ./Grafico_2.sh atraso > grafico_2.txt
+
+Para a geração dos gráficos foi utilizado o gnuplot que pode ser
+encontrado nos repositórios padrões da maioria das distribuições Linux.
+A partir disso deve-se executar:
+
+$ gnuplot gera_grafico1.gp
+$ gnuplot gera_grafico2.gp
