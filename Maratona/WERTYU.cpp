@@ -1,0 +1,76 @@
+#include <iostream>
+#include <map>
+#include <string>
+
+using namespace std;
+
+int main(){
+    map<char, char> teclado;
+    int i, n;
+    string linha;
+    
+    //Popula Teclado
+    
+    /* Primeira linha */
+	teclado['1'] = '`';
+	teclado['2'] = '1';
+	teclado['3'] = '2';
+	teclado['4'] = '3';
+	teclado['5'] = '4';
+	teclado['6'] = '5';
+	teclado['7'] = '6';
+	teclado['8'] = '7';
+	teclado['9'] = '8';
+	teclado['0'] = '9';
+	teclado['-'] = '0';
+	teclado['='] = '-';
+
+	/* Segunda linha */
+	teclado['W'] = 'Q';
+	teclado['E'] = 'W';
+	teclado['R'] = 'E';
+	teclado['T'] = 'R';
+	teclado['Y'] = 'T';
+	teclado['U'] = 'Y';
+	teclado['I'] = 'U';
+	teclado['O'] = 'I';
+	teclado['P'] = 'O';
+	teclado['['] = 'P';
+	teclado[']'] = '[';
+	teclado['\\'] = ']';
+
+	/* Terceira linha */
+	teclado['S'] = 'A';
+	teclado['D'] = 'S';
+	teclado['F'] = 'D';
+	teclado['G'] = 'F';
+	teclado['H'] = 'G';
+	teclado['J'] = 'H';
+	teclado['K'] = 'J';
+	teclado['L'] = 'K';
+	teclado[';'] = 'L';
+	teclado['\''] = ';';
+
+	/* Quarta linha */
+	teclado['X'] = 'Z';
+	teclado['C'] = 'X';
+	teclado['V'] = 'C';
+	teclado['B'] = 'V';
+	teclado['N'] = 'B';
+	teclado['M'] = 'N';
+	teclado[','] = 'M';
+	teclado['.'] = ',';
+	teclado['/'] = '.';
+	teclado[' '] = ' ';
+	
+	
+    while(getline(cin, linha)){
+        n = linha.size();
+        for(i=0; i<n; i++){
+            cout << teclado[linha[i]];
+        }
+        cout << "\n";
+    }
+    
+    return 0;
+}
