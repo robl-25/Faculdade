@@ -7,28 +7,21 @@
 
 using namespace std;
 
-void remove_elemento(map<int, list<int> >& grafo, vector<int>& amigos, int k, int indice){
+void remove_elemento(map<int, int >& grafo, vector<int>& amigos, int k, int indice){
 	int pos;
-	list<int>::iterator it;
     
-    if(grafo.find(indice) == grafo.end()){
-		return;
-	}
+	amigos[indice] = -1;
+	
+	pos = grafo[indice];
     
-	amigos[indice] = 0;
-    
-    for(it = grafo[indice].begin(); it != grafo[indice].end(); it++){
-        pos = *it;
+    /* Decrementa a quantidade de amigos de `it` */
+    amigos[pos]--;
 
-	    /* Decrementa a quantidade de amigos de `it` */
-	    amigos[pos]--;
-
-	    /* Se pos ficou com menos que `k` amigos
-	     * removemos ele tambem */
-	    if(amigos[pos] == 0){
-		    remove_elemento(grafo, amigos, k, pos);
-	    }
-	}
+    /* Se pos ficou com menos que `k` amigos
+     * removemos ele tambem */
+    if(amigos[pos] == 0){
+	    remove_elemento(grafo, amigos, k, pos);
+    }
 }
 
 inline void fastRead_int(int &x){
@@ -64,13 +57,13 @@ int main(){
 	cin >> n;
 
 	vector<int> amigos(n, 0);
-	map<int, list<int> > grafo;
+	map<int, int> grafo;
 
 	for(i=0; i<n; i++){
 		fastRead_int(a);
 		fastRead_int(b);
 
-		grafo[a - 1].push_back(b - 1);
+		grafo[a - 1] = b - 1;
 
 		amigos[b - 1]++;
 	}
@@ -101,11 +94,6 @@ int main(){
 	if(amigos[i] > 0){
 		cout << i+1 << endl;
 		alguem_foi_impresso = true;
-	}
-
-	/* Se ninguem foi impresso ainda imprimimos "0\n" */
-	if(!alguem_foi_impresso){
-		cout << 0 << endl;
 	}
 
 	return 0;
