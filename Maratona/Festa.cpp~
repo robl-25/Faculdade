@@ -133,7 +133,7 @@ int main(){
 	    }
 	    
 	    if(!alguem_foi_impresso){
-	            printf("%d\n", 0);
+	            printf("%d ", 0);
 	        }
 	}
 

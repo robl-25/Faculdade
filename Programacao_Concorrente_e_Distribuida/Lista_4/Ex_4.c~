@@ -45,8 +45,8 @@ int main(){
     #pragma omp parallel private(i) shared(A, B) reduction(+: produto_escalar)
     {
         #pragma omp for
-        for(i=0; i<TAMANHO; i++)
-            produto_escalar += A[i] * B[i];
+            for(i=0; i<TAMANHO; i++)
+                produto_escalar += A[i] * B[i];
     }
 
     printf("%.3lfs\n", omp_get_wtime() - tempo);
