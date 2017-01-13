@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <body>
+
+        <canvas id="myCanvas" width="200" height="100" style="border:1px solid #d3d3d3;">
+            Se o seu navegador não suportar o canvas, essa mensagem será exibida.
+        </canvas>
+
+        <script>
+            var c = document.getElementById("myCanvas");
+            var ctx = c.getContext("2d");
+            ctx.font = "30px Arial";
+            ctx.strokeText("Hello World",10,50);
+        </script>
+    </body>
+</html>

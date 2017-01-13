@@ -1,0 +1,25 @@
+%{
+#include "acumuly.tab.h"
+extern YYSTYPE yylval;
+void abrirArq();
+%}
+
+espaco [ \t]+
+
+%%
+[0-9]+	{ yylval = atoi(yytext); return NUM; }
+\+	{ return SOMA; }
+\-	{ return SUBT; }
+\*	{ return MULT; }
+\(	{ return PARE; }
+\)	{ return PARD; }
+\n	{ return LINH; }
+{espaco} {		 }
+.       { return ERRO; }
+%%
+
+void abrirArq()
+{
+  yyin = fopen("entrada.txt", "r");
+}
+	 
