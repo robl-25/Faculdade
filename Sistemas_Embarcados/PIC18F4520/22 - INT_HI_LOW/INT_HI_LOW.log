@@ -1,0 +1,12 @@
+Line	MessageNo	File Name
+0	1	mikroCPIC1618.exe -MSF -DBG -pP18F4520 -C -DL -O11111114 -fo8 -N"C:\Microgenios\Microcontroladores\PIC\Compiladores\MikroC\Programa\PRO\Exemplos\PIC18F4520\XX - INT_HI_LOW\INT_HI_LOW.mcppi" -SP"C:\Arquivos de programas\Mikroelektronika\mikroC PRO for PIC\defs\" -SP"C:\Arquivos de programas\Mikroelektronika\mikroC PRO for PIC\uses\P18\" -SP"C:\Microgenios\Microcontroladores\PIC\Compiladores\MikroC\Programa\PRO\Exemplos\PIC18F4520\XX - INT_HI_LOW\" "main.c" "__Lib_Math.mcl" "__Lib_MathDouble.mcl" "__Lib_System.mcl" "__Lib_Delays.mcl"	 
+diagnostics: 0	125	All files Preprocessed in 1 ms	 
+diagnostics: 0	121	Compilation Started	main.c
+diagnostics: 116	122	Compiled Successfully	main.c
+diagnostics: 0	126	All files Compiled in 47 ms	 
+hint: 0	1141	Used RAM (bytes): 5 (1%)  Free RAM (bytes): 1510 (99%)	Used RAM (bytes): 5 (1%)  Free RAM (bytes): 1510 (99%)
+hint: 0	1141	Used ROM (bytes): 256 (1%)  Free ROM (bytes): 32512 (99%)	Used ROM (bytes): 256 (1%)  Free ROM (bytes): 32512 (99%)
+diagnostics: 0	124	Project Linked Successfully	INT_HI_LOW.mcppi
+diagnostics: 0	127	Linked in 156 ms	 
+diagnostics: 0	128	Project 'INT_HI_LOW.mcppi' completed: 281 ms	 
+diagnostics: 0	103	Finished successfully: 15 jul 2009, 14:12:35	INT_HI_LOW.mcppi

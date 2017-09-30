@@ -1,0 +1,14 @@
+Line	MessageNo	File Name
+0	1	mikroCPIC1618.exe -MSF -DBG -pP18F4520 -C -DL -O11111114 -fo8 -N"C:\Microgenios\Microcontroladores\PIC\Compiladores\MikroC\Programa\PRO\Exemplos\PIC18F4520\03 - PISCA_PISCA_PORTD2\PISCA_PISCA_PORTD2.mcppi" -SP"C:\Arquivos de programas\Mikroelektronika\mikroC PRO for PIC\defs\" -SP"C:\Arquivos de programas\Mikroelektronika\mikroC PRO for PIC\uses\P18\" -SP"C:\Microgenios\Microcontroladores\PIC\Compiladores\MikroC\Programa\PRO\Exemplos\PIC18F4520\03 - PISCA_PISCA_PORTD2\" -SP"C:\Microcontroladores\PIC\Compiladores\MikroC\Programa\PRO\Exemplos\PIC18F4520\03 - PISCA_PISCA_PORTD2\" -SP"C:\Compiladores\MikroC\Programa\PRO\Exemplos\03 - PISCA_PISCA_PORTD2\" "main.c" "__Lib_Math.mcl" "__Lib_MathDouble.mcl" "__Lib_System.mcl" "__Lib_Delays.mcl"	 
+warning: 0	1501	Specified search path does not exist: 'C:\Microcontroladores\PIC\Compiladores\MikroC\Programa\PRO\Exemplos\PIC18F4520\03 - PISCA_PISCA_PORTD2'	 
+warning: 0	1501	Specified search path does not exist: 'C:\Compiladores\MikroC\Programa\PRO\Exemplos\03 - PISCA_PISCA_PORTD2'	 
+diagnostics: 0	125	All files Preprocessed in 1 ms	 
+diagnostics: 0	121	Compilation Started	main.c
+diagnostics: 49	122	Compiled Successfully	main.c
+diagnostics: 0	126	All files Compiled in 31 ms	 
+hint: 0	1141	Used RAM (bytes): 0 (1%)  Free RAM (bytes): 1515 (99%)	Used RAM (bytes): 0 (1%)  Free RAM (bytes): 1515 (99%)
+hint: 0	1141	Used ROM (bytes): 104 (1%)  Free ROM (bytes): 32664 (99%)	Used ROM (bytes): 104 (1%)  Free ROM (bytes): 32664 (99%)
+diagnostics: 0	124	Project Linked Successfully	PISCA_PISCA_PORTD2.mcppi
+diagnostics: 0	127	Linked in 125 ms	 
+diagnostics: 0	128	Project 'PISCA_PISCA_PORTD2.mcppi' completed: 234 ms	 
+diagnostics: 0	103	Finished successfully: 14 jul 2009, 14:43:34	PISCA_PISCA_PORTD2.mcppi

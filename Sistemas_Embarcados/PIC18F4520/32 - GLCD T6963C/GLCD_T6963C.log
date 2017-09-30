@@ -1,0 +1,12 @@
+Line	MessageNo	File Name
+0	1	mikroCPIC1618.exe -MSF -DBG -pP18F4520 -DL -O11111114 -fo8 -N"S:\Microgenios Arquivos\Arquivos de CDs\CD Kit PICgenios\Exemplos de Programas\Linguagem C - MikroC PRO\PIC18F4520\32 - GLCD T6963C\GLCD_T6963C.mcppi" -SP"C:\Arquivos de programas\Mikroelektronika\mikroC PRO for PIC\defs\" -SP"C:\Arquivos de programas\Mikroelektronika\mikroC PRO for PIC\uses\P18\" -SP"S:\Microgenios Arquivos\Arquivos de CDs\CD Kit PICgenios\Exemplos de Programas\Linguagem C - MikroC PRO\PIC18F4520\32 - GLCD T6963C\" "GLCD_T6963C.c" "mikroe_bmp.c" "einstein.c" "__Lib_Math.mcl" "__Lib_MathDouble.mcl" "__Lib_System.mcl" "__Lib_Delays.mcl" "__Lib_Trigonometry.mcl" "__Lib_T6963C.mcl"	 
+diagnostics: 0	125	All files Preprocessed in 250 ms	 
+diagnostics: 0	121	Compilation Started	__t6963c.h
+diagnostics: 197	122	Compiled Successfully	GLCD_T6963C.c
+diagnostics: 0	121	Compilation Started	mikroe_bmp.c
+diagnostics: 247	122	Compiled Successfully	mikroe_bmp.c
+diagnostics: 0	121	Compilation Started	einstein.c
+diagnostics: 29	122	Compiled Successfully	einstein.c
+diagnostics: 0	126	All files Compiled in 766 ms	 
+error: 0	433	Demo Limit	Demo Limit
+error: 0	102	Finished (with errors): 13 jan 2010, 19:28:33	GLCD_T6963C.mcppi

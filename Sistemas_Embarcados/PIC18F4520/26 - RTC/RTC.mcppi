@@ -1,0 +1,43 @@
+[ACTIVE_TAB]
+Value=AD0_e_AD1_LCD.c
+[DEVICE]
+Name=P18F4520
+Clock=8000000
+[MEMORY_MODEL]
+Value=0
+[BUILD_TYPE]
+Value=0
+[USE_EEPROM]
+Value=0
+[EEPROM_DEFINITION]
+Value=
+[FILES]
+Count=1
+File0=main.c
+[BINARIES]
+Count=0
+[IMAGES]
+Count=0
+[OPENED_FILES]
+Count=1
+File0=main.c
+[OTHER_FILES]
+Count=0
+[SEARCH_PATH]
+Count=5
+Path0=C:\Arquivos de programas\Mikroelektronika\mikroC PRO for PIC\defs\
+Path1=C:\Arquivos de programas\Mikroelektronika\mikroC PRO for PIC\uses\P18\
+Path2=Z:\Microgenios Arquivos\Arquivos de CDs\CD Kit PICgenios\Exemplos de Programas\Linguagem C - MikroC PRO\PIC18F4520\26 - RTC\
+Path3=C:\Microgenios\Microcontroladores\PIC\Compiladores\MikroC\Programa\PRO\Exemplos\PIC18F4520\XX - RTC\
+Path4=C:\Microgenios\Microcontroladores\PIC\Compiladores\MikroC\Programa\PRO\Exemplos\PIC18F4520\01 - PISCA_PISCA_PORTB\
+[HEADER_PATH]
+Count=0
+[HEADERS]
+Count=0
+[PLDS]
+Count=0
+[Useses]
+Count=3
+File0=Lcd
+File1=Lcd_Constants
+File2=I2C

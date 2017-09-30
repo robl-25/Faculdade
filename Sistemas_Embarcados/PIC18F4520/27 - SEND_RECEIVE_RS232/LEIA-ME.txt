@@ -1,0 +1,3 @@
+Para Testar esse exemplo: 
+
+	Abrir o programa Hyperterminal, conecta-lo a COM1 a 9600bps e ligar o KIT PICgenios PIC18F.

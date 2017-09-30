@@ -1,0 +1,14 @@
+Line	MessageNo	File Name
+0	1	mikroCPIC1618.exe -MSF -DBG -pP18F4520 -C -DL -O11111114 -fo8 -N"C:\Microgenios\Microcontroladores\PIC\Compiladores\MikroC\Programa\PRO\Exemplos\PIC18F4520\08 - TECLADO_MATRICIAL\TECLADO_MATRICIAL.mcppi" -SP"C:\Arquivos de programas\Mikroelektronika\mikroC PRO for PIC\defs\" -SP"C:\Arquivos de programas\Mikroelektronika\mikroC PRO for PIC\uses\P18\" -SP"C:\Microgenios\Microcontroladores\PIC\Compiladores\MikroC\Programa\PRO\Exemplos\PIC18F4520\08 - TECLADO_MATRICIAL\" -SP"C:\Microcontroladores\PIC\Compiladores\MikroC\Programa\PRO\Exemplos\PIC18F4520\08 - TECLADO_MATRICIAL\" -SP"C:\Compiladores\MikroC\Programa\PRO\Exemplos\08 - TECLADO_MATRICIAL\" "main.c" "__Lib_Math.mcl" "__Lib_MathDouble.mcl" "__Lib_System.mcl" "__Lib_Delays.mcl"	 
+warning: 0	1501	Specified search path does not exist: 'C:\Microcontroladores\PIC\Compiladores\MikroC\Programa\PRO\Exemplos\PIC18F4520\08 - TECLADO_MATRICIAL'	 
+warning: 0	1501	Specified search path does not exist: 'C:\Compiladores\MikroC\Programa\PRO\Exemplos\08 - TECLADO_MATRICIAL'	 
+diagnostics: 0	125	All files Preprocessed in 16 ms	 
+diagnostics: 0	121	Compilation Started	main.c
+diagnostics: 104	122	Compiled Successfully	main.c
+diagnostics: 0	126	All files Compiled in 47 ms	 
+hint: 0	1141	Used RAM (bytes): 26 (2%)  Free RAM (bytes): 1489 (98%)	Used RAM (bytes): 26 (2%)  Free RAM (bytes): 1489 (98%)
+hint: 0	1141	Used ROM (bytes): 502 (2%)  Free ROM (bytes): 32266 (98%)	Used ROM (bytes): 502 (2%)  Free ROM (bytes): 32266 (98%)
+diagnostics: 0	124	Project Linked Successfully	TECLADO_MATRICIAL.mcppi
+diagnostics: 0	127	Linked in 140 ms	 
+diagnostics: 0	128	Project 'TECLADO_MATRICIAL.mcppi' completed: 281 ms	 
+diagnostics: 0	103	Finished successfully: 14 jul 2009, 14:45:05	TECLADO_MATRICIAL.mcppi

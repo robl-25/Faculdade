@@ -1,0 +1,12 @@
+Line	MessageNo	File Name
+0	1	mikroCPIC1618.exe -MSF -DBG -pP18F4520 -C -DL -O11111114 -fo8 -N"C:\Microgenios\Microcontroladores\PIC\Compiladores\MikroC\Programa\PRO\Exemplos\PIC18F4520\07 - DISPLAY_7_SEG\DISPLAY_7_SEG.mcppi" -SP"C:\Arquivos de programas\Mikroelektronika\mikroC PRO for PIC\defs\" -SP"C:\Arquivos de programas\Mikroelektronika\mikroC PRO for PIC\uses\P18\" -SP"C:\Microgenios\Microcontroladores\PIC\Compiladores\MikroC\Programa\PRO\Exemplos\PIC18F4520\07 - DISPLAY_7_SEG\" "main.c" "__Lib_Math.mcl" "__Lib_MathDouble.mcl" "__Lib_System.mcl" "__Lib_Delays.mcl"	 
+diagnostics: 0	125	All files Preprocessed in 1 ms	 
+diagnostics: 0	121	Compilation Started	main.c
+diagnostics: 119	122	Compiled Successfully	main.c
+diagnostics: 0	126	All files Compiled in 46 ms	 
+hint: 0	1141	Used RAM (bytes): 16 (1%)  Free RAM (bytes): 1499 (99%)	Used RAM (bytes): 16 (1%)  Free RAM (bytes): 1499 (99%)
+hint: 0	1141	Used ROM (bytes): 586 (2%)  Free ROM (bytes): 32182 (98%)	Used ROM (bytes): 586 (2%)  Free ROM (bytes): 32182 (98%)
+diagnostics: 0	124	Project Linked Successfully	DISPLAY_7_SEG.mcppi
+diagnostics: 0	127	Linked in 188 ms	 
+diagnostics: 0	128	Project 'DISPLAY_7_SEG.mcppi' completed: 313 ms	 
+diagnostics: 0	103	Finished successfully: 14 jul 2009, 14:55:32	DISPLAY_7_SEG.mcppi

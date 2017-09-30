@@ -1,0 +1,17 @@
+Line	MessageNo	File Name
+0	1	mikroCPIC1618.exe -MSF -DBG -pP18F4520 -C -DL -O11111114 -fo8 -N"C:\Microgenios\Microcontroladores\PIC\Compiladores\MikroC\Programa\PRO\Exemplos\PIC18F4520\XX - AD_AN0_AN1_RS232\AD_AN0_AN1_RS232.mcppi" -SP"C:\Arquivos de programas\Mikroelektronika\mikroC PRO for PIC\defs\" -SP"C:\Arquivos de programas\Mikroelektronika\mikroC PRO for PIC\uses\P18\" -SP"C:\Microgenios\Microcontroladores\PIC\Compiladores\MikroC\Programa\PRO\Exemplos\PIC18F4520\XX - AD_AN0_AN1_RS232\" -SP"C:\Microgenios\Microcomputador\C#\Exemplo de Gauge\Exemplo MikroC\CANAL_AD_AN0_AN1_RS232\" -SP"C:\Microgenios\Microcomputador\C#\Exemplo de Gauge\Exemplo MikroC\CANAL_AD_AN0\" -SP"C:\Microcontroladores\PIC\Compiladores\MikroC\Programa\PRO\Exemplos\PIC18F452\09 - CANAL_AD_AN0\" -SP"C:\Compiladores\MikroC\Programa\PRO\Exemplos\09 - CANAL_AD_AN0\" "main.c" "__Lib_Math.mcl" "__Lib_MathDouble.mcl" "__Lib_System.mcl" "__Lib_Delays.mcl" "__Lib_Conversions.mcl" "__Lib_ADC_A_D.mcl" "__Lib_UART_c67.mcl"	 
+warning: 0	1501	Specified search path does not exist: 'C:\Microgenios\Microcomputador\C#\Exemplo de Gauge\Exemplo MikroC\CANAL_AD_AN0'	 
+warning: 0	1501	Specified search path does not exist: 'C:\Microcontroladores\PIC\Compiladores\MikroC\Programa\PRO\Exemplos\PIC18F452\09 - CANAL_AD_AN0'	 
+warning: 0	1501	Specified search path does not exist: 'C:\Compiladores\MikroC\Programa\PRO\Exemplos\09 - CANAL_AD_AN0'	 
+diagnostics: 0	125	All files Preprocessed in 47 ms	 
+diagnostics: 0	121	Compilation Started	main.c
+warning: 44	1509	Generated baud rate is 9615 bps (error = 0.16 percent)	main.c
+hint: 35	1159	Variable 'ucCount' has been declared, but not used	main.c
+diagnostics: 97	122	Compiled Successfully	main.c
+diagnostics: 0	126	All files Compiled in 47 ms	 
+hint: 0	1141	Used RAM (bytes): 39 (3%)  Free RAM (bytes): 1476 (97%)	Used RAM (bytes): 39 (3%)  Free RAM (bytes): 1476 (97%)
+hint: 0	1141	Used ROM (bytes): 1022 (3%)  Free ROM (bytes): 31746 (97%)	Used ROM (bytes): 1022 (3%)  Free ROM (bytes): 31746 (97%)
+diagnostics: 0	124	Project Linked Successfully	AD_AN0_AN1_RS232.mcppi
+diagnostics: 0	127	Linked in 219 ms	 
+diagnostics: 0	128	Project 'AD_AN0_AN1_RS232.mcppi' completed: 407 ms	 
+diagnostics: 0	103	Finished successfully: 16 jul 2009, 10:08:39	AD_AN0_AN1_RS232.mcppi

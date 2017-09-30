@@ -1,0 +1,14 @@
+Line	MessageNo	File Name
+0	1	mikroCPIC1618.exe -MSF -DBG -pP18F4520 -DL -O11111114 -fo8 -N"C:\Documents and Settings\Administrador\Desktop\microEthernet\microEthernet.mcppi" -SP"C:\Arquivos de programas\Mikroelektronika\mikroC PRO for PIC\defs\" -SP"C:\Arquivos de programas\Mikroelektronika\mikroC PRO for PIC\uses\P18\" -SP"C:\Documents and Settings\Administrador\Desktop\microEthernet\" "microEthernet.c" "__Lib_Math.mcl" "__Lib_MathDouble.mcl" "__Lib_System.mcl" "__Lib_Delays.mcl" "__Lib_CType.mcl" "__Lib_CString.mcl" "__Lib_CStdlib.mcl" "__Lib_CMath.mcl" "__Lib_Conversions.mcl" "__Lib_ADC_A_D.mcl" "__Lib_SPI_c345.mcl" "__Lib_EthEnc28j60.mcl"	 
+hint: 0	1138	Available RAM: 1515 [bytes], Available ROM: 32768 [bytes]	 
+diagnostics: 0	126	All files Preprocessed in 16 ms	 
+diagnostics: 0	122	Compilation Started	microEthernet.c
+diagnostics: 382	123	Compiled Successfully	microEthernet.c
+hint: 270	1162	Variable 'bitMask' has been eliminated by optimizer	microEthernet.c
+diagnostics: 0	127	All files Compiled in 125 ms	 
+hint: 0	1143	Used RAM (bytes): 335 (22%)  Free RAM (bytes): 1180 (78%)	Used RAM (bytes): 335 (22%)  Free RAM (bytes): 1180 (78%)
+hint: 0	1143	Used ROM (bytes): 12784 (39%)  Free ROM (bytes): 19984 (61%)	Used ROM (bytes): 12784 (39%)  Free ROM (bytes): 19984 (61%)
+diagnostics: 0	125	Project Linked Successfully	microEthernet.mcppi
+diagnostics: 0	128	Linked in 922 ms	 
+diagnostics: 0	129	Project 'microEthernet.mcppi' completed: 1250 ms	 
+diagnostics: 0	103	Finished successfully: 04 fev 2010, 07:35:38	microEthernet.mcppi

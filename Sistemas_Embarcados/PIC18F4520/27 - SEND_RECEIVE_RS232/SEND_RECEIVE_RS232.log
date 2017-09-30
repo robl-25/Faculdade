@@ -1,0 +1,16 @@
+Line	MessageNo	File Name
+0	1	mikroCPIC1618.exe -MSF -DBG -pP18F4520 -C -DL -O11111114 -fo8 -N"C:\Microgenios\Microcontroladores\PIC\Compiladores\MikroC\Programa\PRO\Exemplos\PIC18F4520\XX - SEND_RECEIVE_RS232\SEND_RECEIVE_RS232.mcppi" -SP"C:\Arquivos de programas\Mikroelektronika\mikroC PRO for PIC\defs\" -SP"C:\Arquivos de programas\Mikroelektronika\mikroC PRO for PIC\uses\P18\" -SP"C:\Microgenios\Microcontroladores\PIC\Compiladores\MikroC\Programa\PRO\Exemplos\PIC18F4520\XX - SEND_RECEIVE_RS232\" -SP"C:\Microgenios\Microcontroladores\PIC\Compiladores\MikroC\Programa\PRO\Exemplos\PIC18F4520\XX - AD_AN0_AN1_RS232\" -SP"C:\Microgenios\Microcomputador\C#\Exemplo de Gauge\Exemplo MikroC\CANAL_AD_AN0_AN1_RS232\" -SP"C:\Microgenios\Microcomputador\C#\Exemplo de Gauge\Exemplo MikroC\CANAL_AD_AN0\" -SP"C:\Microcontroladores\PIC\Compiladores\MikroC\Programa\PRO\Exemplos\PIC18F452\09 - CANAL_AD_AN0\" -SP"C:\Compiladores\MikroC\Programa\PRO\Exemplos\09 - CANAL_AD_AN0\" "main.c" "__Lib_Math.mcl" "__Lib_MathDouble.mcl" "__Lib_System.mcl" "__Lib_Delays.mcl" "__Lib_Conversions.mcl" "__Lib_ADC_A_D.mcl" "__Lib_UART_c67.mcl"	 
+warning: 0	1501	Specified search path does not exist: 'C:\Microgenios\Microcomputador\C#\Exemplo de Gauge\Exemplo MikroC\CANAL_AD_AN0'	 
+warning: 0	1501	Specified search path does not exist: 'C:\Microcontroladores\PIC\Compiladores\MikroC\Programa\PRO\Exemplos\PIC18F452\09 - CANAL_AD_AN0'	 
+warning: 0	1501	Specified search path does not exist: 'C:\Compiladores\MikroC\Programa\PRO\Exemplos\09 - CANAL_AD_AN0'	 
+diagnostics: 0	125	All files Preprocessed in 1 ms	 
+diagnostics: 0	121	Compilation Started	main.c
+warning: 39	1509	Generated baud rate is 9615 bps (error = 0.16 percent)	main.c
+diagnostics: 48	122	Compiled Successfully	main.c
+diagnostics: 0	126	All files Compiled in 31 ms	 
+hint: 0	1141	Used RAM (bytes): 18 (1%)  Free RAM (bytes): 1497 (99%)	Used RAM (bytes): 18 (1%)  Free RAM (bytes): 1497 (99%)
+hint: 0	1141	Used ROM (bytes): 240 (1%)  Free ROM (bytes): 32528 (99%)	Used ROM (bytes): 240 (1%)  Free ROM (bytes): 32528 (99%)
+diagnostics: 0	124	Project Linked Successfully	SEND_RECEIVE_RS232.mcppi
+diagnostics: 0	127	Linked in 156 ms	 
+diagnostics: 0	128	Project 'SEND_RECEIVE_RS232.mcppi' completed: 281 ms	 
+diagnostics: 0	103	Finished successfully: 16 jul 2009, 10:35:28	SEND_RECEIVE_RS232.mcppi

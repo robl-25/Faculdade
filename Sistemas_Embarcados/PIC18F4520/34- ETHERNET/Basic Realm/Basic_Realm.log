@@ -1,0 +1,16 @@
+Line	MessageNo	File Name
+0	1	mikroCPIC1618.exe -MSF -DBG -pP18F4520 -DL -O11111114 -fo32 -N"C:\Arquivos de programas\Mikroelektronika\mikroC PRO for PIC\Examples\Extra Boards\SPI Ethernet\p18\Basic Realm\Basic_Realm.mcppi" -SP"C:\Arquivos de programas\Mikroelektronika\mikroC PRO for PIC\defs\" -SP"C:\Arquivos de programas\Mikroelektronika\mikroC PRO for PIC\uses\P18\" -SP"C:\Arquivos de programas\Mikroelektronika\mikroC PRO for PIC\Examples\Extra Boards\SPI Ethernet\p18\Basic Realm\" "httpUtils.c" "Basic_Realm.c" "__Lib_Math.mcl" "__Lib_MathDouble.mcl" "__Lib_System.mcl" "__Lib_Delays.mcl" "__Lib_CString.mcl" "__Lib_SPI_c345.mcl" "__Lib_EthEnc28j60.mcl"	 
+hint: 0	1138	Available RAM: 1515 [bytes], Available ROM: 32768 [bytes]	 
+diagnostics: 0	126	All files Preprocessed in 15 ms	 
+diagnostics: 0	122	Compilation Started	httputils.h
+diagnostics: 309	123	Compiled Successfully	httpUtils.c
+hint: 306	1162	Variable 'len' has been eliminated by optimizer	httpUtils.c
+diagnostics: 0	122	Compilation Started	httputils.h
+diagnostics: 262	123	Compiled Successfully	Basic_Realm.c
+diagnostics: 0	127	All files Compiled in 266 ms	 
+hint: 0	1143	Used RAM (bytes): 602 (40%)  Free RAM (bytes): 913 (60%)	Used RAM (bytes): 602 (40%)  Free RAM (bytes): 913 (60%)
+hint: 0	1143	Used ROM (bytes): 15280 (47%)  Free ROM (bytes): 17488 (53%)	Used ROM (bytes): 15280 (47%)  Free ROM (bytes): 17488 (53%)
+diagnostics: 0	125	Project Linked Successfully	Basic_Realm.mcppi
+diagnostics: 0	128	Linked in 875 ms	 
+diagnostics: 0	129	Project 'Basic_Realm.mcppi' completed: 1328 ms	 
+diagnostics: 0	103	Finished successfully: 04 fev 2010, 07:55:27	Basic_Realm.mcppi

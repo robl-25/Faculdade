@@ -1,0 +1,13 @@
+Line	MessageNo	File Name
+0	1	mikroCPIC1618.exe -MSF -DBG -pP18F4520 -DL -O11111114 -fo8 -N"C:\Microgenios\Microcontroladores\PIC\Compiladores\MikroC\Programa\PRO\Exemplos\PIC18F4520\XX - EEPROM_INTERNA\EEPROM_INTERNA.mcppi" -SP"C:\Arquivos de programas\Mikroelektronika\mikroC PRO for PIC\defs\" -SP"C:\Arquivos de programas\Mikroelektronika\mikroC PRO for PIC\uses\P18\" -SP"C:\Microgenios\Microcontroladores\PIC\Compiladores\MikroC\Programa\PRO\Exemplos\PIC18F4520\XX - EEPROM_INTERNA\" -SP"C:\Microgenios\Microcontroladores\PIC\Compiladores\MikroC\Programa\PRO\Exemplos\PIC18F4520\XX - EEPROM\" -SP"C:\Microgenios\Microcontroladores\PIC\Compiladores\MikroC\Programa\PRO\Exemplos\PIC18F4520\XX - INFRA_PWM_AN0\" -SP"C:\Microgenios\Microcontroladores\PIC\Compiladores\MikroC\Programa\PRO\Exemplos\PIC18F4520\xx - AD_AN0_PWM\" "main.c" "__Lib_Math.mcl" "__Lib_MathDouble.mcl" "__Lib_System.mcl" "__Lib_Delays.mcl" "__Lib_EEPROM_256.mcl" "__Lib_LcdConsts.mcl" "__Lib_Lcd.mcl"	 
+warning: 0	1501	Specified search path does not exist: 'C:\Microgenios\Microcontroladores\PIC\Compiladores\MikroC\Programa\PRO\Exemplos\PIC18F4520\XX - EEPROM'	 
+diagnostics: 0	125	All files Preprocessed in 15 ms	 
+diagnostics: 0	121	Compilation Started	main.c
+diagnostics: 86	122	Compiled Successfully	main.c
+diagnostics: 0	126	All files Compiled in 47 ms	 
+hint: 0	1141	Used RAM (bytes): 40 (3%)  Free RAM (bytes): 1475 (97%)	Used RAM (bytes): 40 (3%)  Free RAM (bytes): 1475 (97%)
+hint: 0	1141	Used ROM (bytes): 888 (3%)  Free ROM (bytes): 31880 (97%)	Used ROM (bytes): 888 (3%)  Free ROM (bytes): 31880 (97%)
+diagnostics: 0	124	Project Linked Successfully	EEPROM_INTERNA.mcppi
+diagnostics: 0	127	Linked in 172 ms	 
+diagnostics: 0	128	Project 'EEPROM_INTERNA.mcppi' completed: 312 ms	 
+diagnostics: 0	103	Finished successfully: 17 jul 2009, 11:38:32	EEPROM_INTERNA.mcppi

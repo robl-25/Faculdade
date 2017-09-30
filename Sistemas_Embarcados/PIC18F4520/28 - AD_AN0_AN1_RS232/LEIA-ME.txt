@@ -1,0 +1,12 @@
+Para Testar esse exemplo podemos utilizar duas formas:
+
+Forma 1:
+
+	Abrir o programa Hyperterminal, conecta-lo a COM1 a 9600bps e ligar o KIT PICgenios PIC18F.
+
+Forma 2:
+
+	Abrir o programa Gauge C# que está na pasta com o mesmo nome na pasta de exemplo.
+
+	Podemos abrir o arquivo .exe contido na pasta bin\release e visualizar os dados em um gauge analógico, 
+ou ainda abrir o programa fonte desse exemplo e executá-lo no C#.

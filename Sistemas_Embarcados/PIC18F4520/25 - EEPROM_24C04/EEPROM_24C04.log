@@ -1,0 +1,14 @@
+Line	MessageNo	File Name
+0	1	mikroCPIC1618.exe -MSF -DBG -pP18F4520 -DL -O11111114 -fo8 -N"C:\Microgenios\Microcontroladores\PIC\Compiladores\MikroC\Programa\PRO\Exemplos\PIC18F4520\XX - EEPROM_24C04\EEPROM_24C04.mcppi" -SP"C:\Arquivos de programas\Mikroelektronika\mikroC PRO for PIC\defs\" -SP"C:\Arquivos de programas\Mikroelektronika\mikroC PRO for PIC\uses\P18\" -SP"C:\Microgenios\Microcontroladores\PIC\Compiladores\MikroC\Programa\PRO\Exemplos\PIC18F4520\XX - EEPROM_24C04\" -SP"C:\Microgenios\Microcontroladores\PIC\Compiladores\MikroC\Programa\PRO\Exemplos\PIC18F4520\XX - EEPROM_24C02\" -SP"C:\Microgenios\Microcontroladores\PIC\Compiladores\MikroC\Programa\PRO\Exemplos\PIC18F4520\XX - EEPROM_INTERNA\" -SP"C:\Microgenios\Microcontroladores\PIC\Compiladores\MikroC\Programa\PRO\Exemplos\PIC18F4520\XX - EEPROM\" -SP"C:\Microgenios\Microcontroladores\PIC\Compiladores\MikroC\Programa\PRO\Exemplos\PIC18F4520\XX - INFRA_PWM_AN0\" -SP"C:\Microgenios\Microcontroladores\PIC\Compiladores\MikroC\Programa\PRO\Exemplos\PIC18F4520\xx - AD_AN0_PWM\" "main.c" "__Lib_Math.mcl" "__Lib_MathDouble.mcl" "__Lib_System.mcl" "__Lib_Delays.mcl" "__Lib_I2C_c34.mcl" "__Lib_LcdConsts.mcl" "__Lib_Lcd.mcl"	 
+warning: 0	1501	Specified search path does not exist: 'C:\Microgenios\Microcontroladores\PIC\Compiladores\MikroC\Programa\PRO\Exemplos\PIC18F4520\XX - EEPROM_24C02'	 
+warning: 0	1501	Specified search path does not exist: 'C:\Microgenios\Microcontroladores\PIC\Compiladores\MikroC\Programa\PRO\Exemplos\PIC18F4520\XX - EEPROM'	 
+diagnostics: 0	125	All files Preprocessed in 1 ms	 
+diagnostics: 0	121	Compilation Started	main.c
+diagnostics: 116	122	Compiled Successfully	main.c
+diagnostics: 0	126	All files Compiled in 47 ms	 
+hint: 0	1141	Used RAM (bytes): 41 (3%)  Free RAM (bytes): 1474 (97%)	Used RAM (bytes): 41 (3%)  Free RAM (bytes): 1474 (97%)
+hint: 0	1141	Used ROM (bytes): 1084 (3%)  Free ROM (bytes): 31684 (97%)	Used ROM (bytes): 1084 (3%)  Free ROM (bytes): 31684 (97%)
+diagnostics: 0	124	Project Linked Successfully	EEPROM_24C04.mcppi
+diagnostics: 0	127	Linked in 188 ms	 
+diagnostics: 0	128	Project 'EEPROM_24C04.mcppi' completed: 329 ms	 
+diagnostics: 0	103	Finished successfully: 17 jul 2009, 11:53:30	EEPROM_24C04.mcppi

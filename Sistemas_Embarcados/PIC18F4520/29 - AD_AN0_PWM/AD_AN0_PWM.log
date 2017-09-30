@@ -1,0 +1,15 @@
+Line	MessageNo	File Name
+0	1	mikroCPIC1618.exe -MSF -DBG -pP18F4520 -C -DL -O11111114 -fo8 -N"C:\Microgenios\Microcontroladores\PIC\Compiladores\MikroC\Programa\PRO\Exemplos\PIC18F4520\xx - AD_AN0_PWM\AD_AN0_PWM.mcppi" -SP"C:\Arquivos de programas\Mikroelektronika\mikroC PRO for PIC\defs\" -SP"C:\Arquivos de programas\Mikroelektronika\mikroC PRO for PIC\uses\P18\" -SP"C:\Microgenios\Microcontroladores\PIC\Compiladores\MikroC\Programa\PRO\Exemplos\PIC18F4520\xx - AD_AN0_PWM\" -SP"C:\Microgenios\Microcontroladores\PIC\Compiladores\MikroC\Programa\PRO\Exemplos\PIC18F4520\16 - AD_AN0_PWM\" -SP"C:\Microcontroladores\PIC\Compiladores\MikroC\Programa\PRO\Exemplos\PIC18F4520\09 - CANAL_AD_AN0\" -SP"C:\Compiladores\MikroC\Programa\PRO\Exemplos\09 - CANAL_AD_AN0\" "main.c" "__Lib_Math.mcl" "__Lib_MathDouble.mcl" "__Lib_System.mcl" "__Lib_Delays.mcl" "__Lib_ADC_A_D.mcl" "__Lib_PWM_c21.mcl"	 
+warning: 0	1501	Specified search path does not exist: 'C:\Microgenios\Microcontroladores\PIC\Compiladores\MikroC\Programa\PRO\Exemplos\PIC18F4520\16 - AD_AN0_PWM'	 
+warning: 0	1501	Specified search path does not exist: 'C:\Microcontroladores\PIC\Compiladores\MikroC\Programa\PRO\Exemplos\PIC18F4520\09 - CANAL_AD_AN0'	 
+warning: 0	1501	Specified search path does not exist: 'C:\Compiladores\MikroC\Programa\PRO\Exemplos\09 - CANAL_AD_AN0'	 
+diagnostics: 0	125	All files Preprocessed in 1 ms	 
+diagnostics: 0	121	Compilation Started	main.c
+diagnostics: 57	122	Compiled Successfully	main.c
+diagnostics: 0	126	All files Compiled in 31 ms	 
+hint: 0	1141	Used RAM (bytes): 4 (1%)  Free RAM (bytes): 1511 (99%)	Used RAM (bytes): 4 (1%)  Free RAM (bytes): 1511 (99%)
+hint: 0	1141	Used ROM (bytes): 1128 (3%)  Free ROM (bytes): 31640 (97%)	Used ROM (bytes): 1128 (3%)  Free ROM (bytes): 31640 (97%)
+diagnostics: 0	124	Project Linked Successfully	AD_AN0_PWM.mcppi
+diagnostics: 0	127	Linked in 250 ms	 
+diagnostics: 0	128	Project 'AD_AN0_PWM.mcppi' completed: 375 ms	 
+diagnostics: 0	103	Finished successfully: 14 jul 2009, 14:51:28	AD_AN0_PWM.mcppi

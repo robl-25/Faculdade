@@ -1,0 +1,14 @@
+Line	MessageNo	File Name
+0	1	mikroCPIC1618.exe -MSF -DBG -pP18F4520 -C -DL -O11111114 -fo8 -N"C:\Microgenios\Microcontroladores\PIC\Compiladores\MikroC\Programa\PRO\Exemplos\PIC18F4520\12 - TIMER_0\TIMER_0.mcppi" -SP"C:\Arquivos de programas\Mikroelektronika\mikroC PRO for PIC\defs\" -SP"C:\Arquivos de programas\Mikroelektronika\mikroC PRO for PIC\uses\P18\" -SP"C:\Microgenios\Microcontroladores\PIC\Compiladores\MikroC\Programa\PRO\Exemplos\PIC18F4520\12 - TIMER_0\" -SP"C:\Microcontroladores\PIC\Compiladores\MikroC\Programa\PRO\Exemplos\PIC18F4520\12 - TIMER_0\" -SP"C:\Compiladores\MikroC\Programa\PRO\Exemplos\12 - TIMER_0\" "main.c" "__Lib_Math.mcl" "__Lib_MathDouble.mcl" "__Lib_System.mcl" "__Lib_Delays.mcl"	 
+warning: 0	1501	Specified search path does not exist: 'C:\Microcontroladores\PIC\Compiladores\MikroC\Programa\PRO\Exemplos\PIC18F4520\12 - TIMER_0'	 
+warning: 0	1501	Specified search path does not exist: 'C:\Compiladores\MikroC\Programa\PRO\Exemplos\12 - TIMER_0'	 
+diagnostics: 0	125	All files Preprocessed in 16 ms	 
+diagnostics: 0	121	Compilation Started	main.c
+diagnostics: 119	122	Compiled Successfully	main.c
+diagnostics: 0	126	All files Compiled in 46 ms	 
+hint: 0	1141	Used RAM (bytes): 14 (1%)  Free RAM (bytes): 1501 (99%)	Used RAM (bytes): 14 (1%)  Free RAM (bytes): 1501 (99%)
+hint: 0	1141	Used ROM (bytes): 536 (2%)  Free ROM (bytes): 32232 (98%)	Used ROM (bytes): 536 (2%)  Free ROM (bytes): 32232 (98%)
+diagnostics: 0	124	Project Linked Successfully	TIMER_0.mcppi
+diagnostics: 0	127	Linked in 172 ms	 
+diagnostics: 0	128	Project 'TIMER_0.mcppi' completed: 312 ms	 
+diagnostics: 0	103	Finished successfully: 14 jul 2009, 14:48:40	TIMER_0.mcppi

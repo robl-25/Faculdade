@@ -1,0 +1,43 @@
+[DEVICE]
+Name=P18F4520
+Clock=8000000
+[MEMORY_MODEL]
+Value=0
+[BUILD_TYPE]
+Value=0
+[ACTIVE_TAB]
+Value=einstein.c
+[USE_EEPROM]
+Value=0
+[EEPROM_DEFINITION]
+Value=
+[FILES]
+Count=3
+File0=GLCD_T6963C.c
+File1=mikroe_bmp.c
+File2=einstein.c
+[BINARIES]
+Count=0
+[IMAGES]
+Count=0
+[OPENED_FILES]
+Count=2
+File0=GLCD_T6963C.c
+File1=einstein.c
+[OTHER_FILES]
+Count=0
+[SEARCH_PATH]
+Count=3
+Path0=C:\Arquivos de programas\Mikroelektronika\mikroC PRO for PIC\defs\
+Path1=C:\Arquivos de programas\Mikroelektronika\mikroC PRO for PIC\uses\P18\
+Path2=S:\Microgenios Arquivos\Arquivos de CDs\CD Kit PICgenios\Exemplos de Programas\Linguagem C - MikroC PRO\PIC18F4520\32 - GLCD T6963C\
+[HEADER_PATH]
+Count=0
+[HEADERS]
+Count=0
+[PLDS]
+Count=0
+[Useses]
+Count=2
+File0=T6963C
+File1=Trigonometry

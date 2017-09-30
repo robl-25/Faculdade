@@ -1,0 +1,12 @@
+Line	MessageNo	File Name
+0	1	mikroCPIC1618.exe -MSF -DBG -pP18F4520 -DL -O11111114 -fo8 -N"C:\Microgenios\Microcontroladores\PIC\Compiladores\MikroC\Programa\PRO\Exemplos\PIC18F4520\XX - CONT_TIMER1\CONT_TIMER1.mcppi" -SP"C:\Arquivos de programas\Mikroelektronika\mikroC PRO for PIC\defs\" -SP"C:\Arquivos de programas\Mikroelektronika\mikroC PRO for PIC\uses\P18\" -SP"C:\Microgenios\Microcontroladores\PIC\Compiladores\MikroC\Programa\PRO\Exemplos\PIC18F4520\XX - CONT_TIMER1\" -SP"C:\Microgenios\Microcontroladores\PIC\Compiladores\MikroC\Programa\PRO\Exemplos\PIC18F4520\XX - INFRA_PWM_AN0\" -SP"C:\Microgenios\Microcontroladores\PIC\Compiladores\MikroC\Programa\PRO\Exemplos\PIC18F4520\xx - AD_AN0_PWM\" "main.c" "__Lib_Math.mcl" "__Lib_MathDouble.mcl" "__Lib_System.mcl" "__Lib_Delays.mcl" "__Lib_Conversions.mcl" "__Lib_LcdConsts.mcl" "__Lib_Lcd.mcl"	 
+diagnostics: 0	125	All files Preprocessed in 15 ms	 
+diagnostics: 0	121	Compilation Started	main.c
+diagnostics: 110	122	Compiled Successfully	main.c
+diagnostics: 0	126	All files Compiled in 47 ms	 
+hint: 0	1141	Used RAM (bytes): 39 (3%)  Free RAM (bytes): 1476 (97%)	Used RAM (bytes): 39 (3%)  Free RAM (bytes): 1476 (97%)
+hint: 0	1141	Used ROM (bytes): 908 (3%)  Free ROM (bytes): 31860 (97%)	Used ROM (bytes): 908 (3%)  Free ROM (bytes): 31860 (97%)
+diagnostics: 0	124	Project Linked Successfully	CONT_TIMER1.mcppi
+diagnostics: 0	127	Linked in 250 ms	 
+diagnostics: 0	128	Project 'CONT_TIMER1.mcppi' completed: 390 ms	 
+diagnostics: 0	103	Finished successfully: 17 jul 2009, 12:12:10	CONT_TIMER1.mcppi

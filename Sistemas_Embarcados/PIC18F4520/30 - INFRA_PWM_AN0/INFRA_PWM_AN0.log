@@ -1,0 +1,12 @@
+Line	MessageNo	File Name
+0	1	mikroCPIC1618.exe -MSF -DBG -pP18F4520 -DL -O11111114 -fo8 -N"C:\Microgenios\Microcontroladores\PIC\Compiladores\MikroC\Programa\PRO\Exemplos\PIC18F4520\XX - INFRA_PWM_AN0\INFRA_PWM_AN0.mcppi" -SP"C:\Arquivos de programas\Mikroelektronika\mikroC PRO for PIC\defs\" -SP"C:\Arquivos de programas\Mikroelektronika\mikroC PRO for PIC\uses\P18\" -SP"C:\Microgenios\Microcontroladores\PIC\Compiladores\MikroC\Programa\PRO\Exemplos\PIC18F4520\XX - INFRA_PWM_AN0\" -SP"C:\Microgenios\Microcontroladores\PIC\Compiladores\MikroC\Programa\PRO\Exemplos\PIC18F4520\xx - AD_AN0_PWM\" "main.c" "__Lib_Math.mcl" "__Lib_MathDouble.mcl" "__Lib_System.mcl" "__Lib_Delays.mcl" "__Lib_Conversions.mcl" "__Lib_ADC_A_D.mcl" "__Lib_PWM_c21.mcl" "__Lib_LcdConsts.mcl" "__Lib_Lcd.mcl"	 
+diagnostics: 0	125	All files Preprocessed in 1 ms	 
+diagnostics: 0	121	Compilation Started	main.c
+diagnostics: 137	122	Compiled Successfully	main.c
+diagnostics: 0	126	All files Compiled in 78 ms	 
+hint: 0	1141	Used RAM (bytes): 41 (3%)  Free RAM (bytes): 1474 (97%)	Used RAM (bytes): 41 (3%)  Free RAM (bytes): 1474 (97%)
+hint: 0	1141	Used ROM (bytes): 2130 (7%)  Free ROM (bytes): 30638 (93%)	Used ROM (bytes): 2130 (7%)  Free ROM (bytes): 30638 (93%)
+diagnostics: 0	124	Project Linked Successfully	INFRA_PWM_AN0.mcppi
+diagnostics: 0	127	Linked in 328 ms	 
+diagnostics: 0	128	Project 'INFRA_PWM_AN0.mcppi' completed: 500 ms	 
+diagnostics: 0	103	Finished successfully: 17 jul 2009, 10:41:03	INFRA_PWM_AN0.mcppi

@@ -1,0 +1,11 @@
+Line	MessageNo	File Name
+0	1	mikroCPIC1618.exe -MSF -DBG -pP18F4520 -DL -O11111114 -fo8 -N"S:\Microgenios Arquivos\Arquivos de CDs\CD microEthernet\Exemplos de Programas\MikroC PRO for PIC\PIC18F4520\ENC28J60 HTTP\ENC28J60_HTTP.mcppi" -SP"C:\Arquivos de programas\Mikroelektronika\mikroC PRO for PIC\defs\" -SP"C:\Arquivos de programas\Mikroelektronika\mikroC PRO for PIC\uses\P18\" -SP"S:\Microgenios Arquivos\Arquivos de CDs\CD microEthernet\Exemplos de Programas\MikroC PRO for PIC\PIC18F4520\ENC28J60 HTTP\" -SP"C:\Microgenios\Microcontroladores\PIC\Compiladores\MikroC\Programa\PRO\Exemplos\PIC18F4520\Periféricos\ENC28J60 HTTP\" "ENC28J60_HTTP.c" "__Lib_Math.mcl" "__Lib_MathDouble.mcl" "__Lib_System.mcl" "__Lib_Delays.mcl" "__Lib_CType.mcl" "__Lib_CString.mcl" "__Lib_CStdlib.mcl" "__Lib_Conversions.mcl" "__Lib_ADC_A_D.mcl" "__Lib_SPI_c345.mcl" "__Lib_LcdConsts.mcl" "__Lib_Lcd.mcl" "__Lib_EthEnc28j60.mcl"	 
+warning: 0	1501	Specified search path does not exist: 'C:\Microgenios\Microcontroladores\PIC\Compiladores\MikroC\Programa\PRO\Exemplos\PIC18F4520\Periféricos\ENC28J60 HTTP'	 
+diagnostics: 0	121	Compilation Started	__Lib_Delays.c
+diagnostics: 164	122	Compiled Successfully	__Lib_Delays.c
+diagnostics: 0	125	All files Preprocessed in 94 ms	 
+diagnostics: 0	121	Compilation Started	ENC28J60_HTTP.c
+diagnostics: 353	122	Compiled Successfully	ENC28J60_HTTP.c
+diagnostics: 0	126	All files Compiled in 469 ms	 
+error: 1267	437	Call signature does not match the function definition signature 'SPI_Ethernet_UserTCP'	__Lib_EthEnc28j60.c
+error: 0	102	Finished (with errors): 13 jan 2010, 19:38:10	ENC28J60_HTTP.mcppi

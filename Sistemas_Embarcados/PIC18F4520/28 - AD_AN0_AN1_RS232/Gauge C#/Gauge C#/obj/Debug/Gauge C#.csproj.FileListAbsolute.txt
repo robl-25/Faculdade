@@ -1,0 +1,8 @@
+C:\Microgenios\Microcontroladores\PIC\Compiladores\MikroC\Programa\PRO\Exemplos\PIC18F4520\XX - AD_AN0_AN1_RS232\Gauge C#\Gauge C#\bin\Debug\Gauge C#.exe
+C:\Microgenios\Microcontroladores\PIC\Compiladores\MikroC\Programa\PRO\Exemplos\PIC18F4520\XX - AD_AN0_AN1_RS232\Gauge C#\Gauge C#\bin\Debug\Gauge C#.pdb
+C:\Microgenios\Microcontroladores\PIC\Compiladores\MikroC\Programa\PRO\Exemplos\PIC18F4520\XX - AD_AN0_AN1_RS232\Gauge C#\Gauge C#\obj\Debug\ResolveAssemblyReference.cache
+C:\Microgenios\Microcontroladores\PIC\Compiladores\MikroC\Programa\PRO\Exemplos\PIC18F4520\XX - AD_AN0_AN1_RS232\Gauge C#\Gauge C#\obj\Debug\ExemploGauge.frmMain.resources
+C:\Microgenios\Microcontroladores\PIC\Compiladores\MikroC\Programa\PRO\Exemplos\PIC18F4520\XX - AD_AN0_AN1_RS232\Gauge C#\Gauge C#\obj\Debug\Gauge.Properties.Resources.resources
+C:\Microgenios\Microcontroladores\PIC\Compiladores\MikroC\Programa\PRO\Exemplos\PIC18F4520\XX - AD_AN0_AN1_RS232\Gauge C#\Gauge C#\obj\Debug\Gauge C#.csproj.GenerateResource.Cache
+C:\Microgenios\Microcontroladores\PIC\Compiladores\MikroC\Programa\PRO\Exemplos\PIC18F4520\XX - AD_AN0_AN1_RS232\Gauge C#\Gauge C#\obj\Debug\Gauge C#.exe
+C:\Microgenios\Microcontroladores\PIC\Compiladores\MikroC\Programa\PRO\Exemplos\PIC18F4520\XX - AD_AN0_AN1_RS232\Gauge C#\Gauge C#\obj\Debug\Gauge C#.pdb

@@ -1,0 +1,47 @@
+0	1	mikroCPIC1618.exe -MSF -DBG -pP18F4520 -DL -O11111114 -fo8 -N"C:\Users\Microgenios\Desktop\AplicaçõesGLCD\VISUALGLCD\VisualGLCD_picgenios_Code\mikroC PRO for PIC\VisualGLCD_picgenios.mcppi" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\defs\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\uses\P18\" -SP"C:\Users\Microgenios\Desktop\AplicaçõesGLCD\VISUALGLCD\VisualGLCD_picgenios_Code\mikroC PRO for PIC\" "VisualGLCD_picgenios_main.c" "VisualGLCD_picgenios_events_code.c" "VisualGLCD_picgenios_driver.c" "__Lib_Math.mcl" "__Lib_MathDouble.mcl" "__Lib_System.mcl" "__Lib_Delays.mcl" "__Lib_Conversions.mcl" "__Lib_Trigonometry.mcl" "__Lib_ADC_A_D.mcl" "__Lib_UART_c67.mcl" "__Lib_T6963C.mcl" "__Lib_TouchPanel.mcl"	 
+hint: 0	1139	Available RAM: 1515 [bytes], Available ROM: 32768 [bytes]	 
+diagnostics: 0	126	All files Preprocessed in 187 ms	 
+diagnostics: 0	122	Compilation Started	__t6963c.h
+warning: 107	1509	Generated baud rate is 9615 bps (error = 0.16 percent)	VisualGLCD_picgenios_main.c
+diagnostics: 138	123	Compiled Successfully	VisualGLCD_picgenios_main.c
+hint: 91	1164	Variable 'Leitura_AN0' has been eliminated by optimizer	VisualGLCD_picgenios_main.c
+diagnostics: 0	122	Compilation Started	__t6963c.h
+diagnostics: 89	123	Compiled Successfully	visualglcd_picgenios_objects.h
+diagnostics: 0	122	Compilation Started	__t6963c.h
+warning: 80	1508	Implicit conversion of int to ptr	VisualGLCD_picgenios_driver.c
+warning: 86	1508	Implicit conversion of int to ptr	VisualGLCD_picgenios_driver.c
+warning: 87	1508	Implicit conversion of int to ptr	VisualGLCD_picgenios_driver.c
+warning: 88	1508	Implicit conversion of int to ptr	VisualGLCD_picgenios_driver.c
+warning: 89	1508	Implicit conversion of int to ptr	VisualGLCD_picgenios_driver.c
+warning: 98	1508	Implicit conversion of int to ptr	VisualGLCD_picgenios_driver.c
+warning: 99	1508	Implicit conversion of int to ptr	VisualGLCD_picgenios_driver.c
+warning: 100	1508	Implicit conversion of int to ptr	VisualGLCD_picgenios_driver.c
+warning: 101	1508	Implicit conversion of int to ptr	VisualGLCD_picgenios_driver.c
+warning: 110	1508	Implicit conversion of int to ptr	VisualGLCD_picgenios_driver.c
+warning: 111	1508	Implicit conversion of int to ptr	VisualGLCD_picgenios_driver.c
+warning: 112	1508	Implicit conversion of int to ptr	VisualGLCD_picgenios_driver.c
+warning: 113	1508	Implicit conversion of int to ptr	VisualGLCD_picgenios_driver.c
+warning: 122	1508	Implicit conversion of int to ptr	VisualGLCD_picgenios_driver.c
+warning: 123	1508	Implicit conversion of int to ptr	VisualGLCD_picgenios_driver.c
+warning: 124	1508	Implicit conversion of int to ptr	VisualGLCD_picgenios_driver.c
+warning: 125	1508	Implicit conversion of int to ptr	VisualGLCD_picgenios_driver.c
+warning: 134	1508	Implicit conversion of int to ptr	VisualGLCD_picgenios_driver.c
+warning: 135	1508	Implicit conversion of int to ptr	VisualGLCD_picgenios_driver.c
+warning: 136	1508	Implicit conversion of int to ptr	VisualGLCD_picgenios_driver.c
+warning: 137	1508	Implicit conversion of int to ptr	VisualGLCD_picgenios_driver.c
+warning: 145	1508	Implicit conversion of int to ptr	VisualGLCD_picgenios_driver.c
+warning: 146	1508	Implicit conversion of int to ptr	VisualGLCD_picgenios_driver.c
+warning: 147	1508	Implicit conversion of int to ptr	VisualGLCD_picgenios_driver.c
+warning: 148	1508	Implicit conversion of int to ptr	VisualGLCD_picgenios_driver.c
+warning: 156	1508	Implicit conversion of int to ptr	VisualGLCD_picgenios_driver.c
+warning: 157	1508	Implicit conversion of int to ptr	VisualGLCD_picgenios_driver.c
+warning: 158	1508	Implicit conversion of int to ptr	VisualGLCD_picgenios_driver.c
+warning: 159	1508	Implicit conversion of int to ptr	VisualGLCD_picgenios_driver.c
+diagnostics: 261	123	Compiled Successfully	VisualGLCD_picgenios_driver.c
+diagnostics: 0	127	All files Compiled in 390 ms	 
+hint: 0	1144	Used RAM (bytes): 358 (24%)  Free RAM (bytes): 1157 (76%)	Used RAM (bytes): 358 (24%)  Free RAM (bytes): 1157 (76%)
+hint: 0	1144	Used ROM (bytes): 8474 (26%)  Free ROM (bytes): 24294 (74%)	Used ROM (bytes): 8474 (26%)  Free ROM (bytes): 24294 (74%)
+diagnostics: 0	125	Project Linked Successfully	VisualGLCD_picgenios.mcppi
+diagnostics: 0	128	Linked in 188 ms	 
+diagnostics: 0	129	Project 'VisualGLCD_picgenios.mcppi' completed: 796 ms	 
+diagnostics: 0	103	Finished successfully: 12 mar 2011, 12:13:33	VisualGLCD_picgenios.mcppi
