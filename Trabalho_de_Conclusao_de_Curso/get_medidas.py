@@ -62,7 +62,7 @@ def write_output_interface(output_file, interface, interface_number, time):
     output_file.write('{}\t'.format(interface['throughput']))
     output_file.write('{}\t'.format(interface['latency']))
     output_file.write('{}\t'.format(interface['error']))
-    output_file.write('{}\n'.format(datetime.fromtimestamp(time).strftime('%Y-%m-%d %H:%M:%S')))
+    output_file.write('{}\n'.format(time))
 
 
 def get_lines(filename):
@@ -80,8 +80,8 @@ def read_input(number):
 
     ip_begin = saida[0][3]
     ip_end = saida[0][5]
-    start_time = convert_str_int(saida[0][2])
-    timeout = convert_str_int(saida[-1][2])
+    start_time = '{}'.format(saida[0][2])
+    timeout = '{}'.format(saida[-1][2])
 
     for j in medida[16:]:
         if j[0] == '|':
@@ -108,6 +108,11 @@ def read_input(number):
 def write_conections(output_file, connections, interface_number, time):
     for i in range(0, connections):
         output_file.write('{}.{}\t'.format(interface_number, i))
+
+
+def next_second(time):
+    time_number = convert_str_int(time) + 1
+    return datetime.fromtimestamp(int(time_number)).strftime('%H:%M:%S')
 
 
 def write_graph(arq):
@@ -138,22 +143,41 @@ def get_connections():
 
     interfaces = []
 
-    for i in range(0, 75):
+    for i in range(0, 9):
         response = read_input(i)
-        interface_number = insert_connection(interfaces, response)
         time = response['start_time']
-        arq.write('{}\t'.format(time))
+        interface_number = insert_connection(interfaces, response)
+        print(time.split('.')[0])
 
-        for interface in interfaces:
-            write_conections(arq,
-                             interface['connections'],
-                             interfaces.index(interface),
-                             time)
-            write_output_interface(output_interface,
-                                    interface,
-                                    interfaces.index(interface),
-                                    response['start_time'])
-        arq.write('\n')
+        if i == 0:
+            write_arq = next_second(time)
+            print(write_arq)
+            arq.write('{}\t'.format(time))
+            for interface in interfaces:
+                write_conections(arq,
+                                 interface['connections'],
+                                 interfaces.index(interface),
+                                 time)
+                write_output_interface(output_interface,
+                                        interface,
+                                        interfaces.index(interface),
+                                        response['start_time'])
+                arq.write('\n')
+
+        if time.split('.')[0] == write_arq:
+            print(write_arq)
+            write_arq = write_arq + 1
+            arq.write('{}\t'.format(time))
+            for interface in interfaces:
+                write_conections(arq,
+                                 interface['connections'],
+                                 interfaces.index(interface),
+                                 time)
+                write_output_interface(output_interface,
+                                        interface,
+                                        interfaces.index(interface),
+                                        response['start_time'])
+                arq.write('\n')
     arq.close()
     arq = open('final.txt', "r")
     write_graph(arq)
