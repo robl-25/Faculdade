@@ -1,9 +1,19 @@
-import time
-from datetime import datetime
+#!/usr/bin/env python3
 
+import time
+import datetime
+
+def addSecs(tm, secs):
+    fulldate = datetime.datetime(100, 1, 1, tm.hour, tm.minute, tm.second)
+    fulldate = fulldate + datetime.timedelta(seconds=secs)
+    fulldate = fulldate.time()
+    return "{}:{}:{}".format(fulldate.hour, fulldate.minute, fulldate.second)
 
 def convert_str_int(connection_time):
-    return datetime.strptime(connection_time, '%H:%M:%S.%f').timestamp()
+    try:
+        return datetime.datetime.strptime(connection_time, '%H:%M:%S.%f').timestamp()
+    except:
+        return datetime.datetime.strptime(connection_time, '%H:%M:%S').timestamp()
 
 
 def belongs(interface, connection):
@@ -58,10 +68,12 @@ def insert_connection(interfaces, connection):
 
 
 def write_output_interface(output_file, interface, interface_number, time):
+    length = len(interface)
     output_file.write('{}\t'.format(interface_number))
     output_file.write('{}\t'.format(interface['throughput']))
     output_file.write('{}\t'.format(interface['latency']))
-    output_file.write('{}\t'.format(interface['error']))
+    output_file.write('{}\t'.format(interface['error']/length))
+    output_file.write('{}\t'.format(length))
     output_file.write('{}\n'.format(time))
 
 
@@ -75,8 +87,8 @@ def get_lines(filename):
 
 
 def read_input(number):
-    saida = get_lines(("saida_{}").format(number))
-    medida = get_lines(("medidas_{}").format(number))
+    saida = get_lines(("mptcpdump/saida_{}").format(number))
+    medida = get_lines(("mptcpdump/medidas_{}").format(number))
 
     ip_begin = saida[0][3]
     ip_end = saida[0][5]
@@ -110,11 +122,6 @@ def write_conections(output_file, connections, interface_number, time):
         output_file.write('{}.{}\t'.format(interface_number, i))
 
 
-def next_second(time):
-    time_number = convert_str_int(time) + 1
-    return datetime.fromtimestamp(int(time_number)).strftime('%H:%M:%S')
-
-
 def write_graph(arq):
     maximium = 0
     for line in arq.readlines():
@@ -132,55 +139,61 @@ def write_graph(arq):
 
 
 def get_connections():
-    arq = open('final.txt', "w")
+    # arq = open('final.txt', "w")
 
-    output_interface = open('medidas_interface.txt', "w")
+    output_interface = open('interface_numbers.txt', "w")
     output_interface.write('numero' + '\t')
     output_interface.write('vazao' + '\t')
     output_interface.write('latencia' + '\t')
     output_interface.write('error' + '\t')
-    output_interface.write('tempo' + '\n')
+    output_interface.write('conexoes' + '\t')
+    output_interface.write('time' + '\n')
 
     interfaces = []
+    max_time = 0
 
-    for i in range(0, 9):
+    for i in range(0, 2541):
         response = read_input(i)
-        time = response['start_time']
+        time = response['start_time'].split('.')[0]
         interface_number = insert_connection(interfaces, response)
-        print(time.split('.')[0])
+        if max_time == 0:
+            max_time = time
+
+        if time > max_time:
+            break
 
         if i == 0:
-            write_arq = next_second(time)
-            print(write_arq)
-            arq.write('{}\t'.format(time))
+            write_arq = addSecs(datetime.datetime.strptime(time, "%H:%M:%S"), 1)
+            # arq.write('{}\t'.format(time))
+            max_time = addSecs(datetime.datetime.strptime(time, "%H:%M:%S"), 300)
             for interface in interfaces:
-                write_conections(arq,
-                                 interface['connections'],
-                                 interfaces.index(interface),
-                                 time)
+                # write_conections(arq,
+                #                  interface['connections'],
+                #                  interfaces.index(interface),
+                #                  time)
                 write_output_interface(output_interface,
                                         interface,
                                         interfaces.index(interface),
                                         response['start_time'])
-                arq.write('\n')
+                # arq.write('\n')
 
-        if time.split('.')[0] == write_arq:
-            print(write_arq)
-            write_arq = write_arq + 1
-            arq.write('{}\t'.format(time))
+        if time >= write_arq:
+            print(time)
+            write_arq = addSecs(datetime.datetime.strptime(time, "%H:%M:%S"), 1)
+            # arq.write('{}\t'.format(time))
             for interface in interfaces:
-                write_conections(arq,
-                                 interface['connections'],
-                                 interfaces.index(interface),
-                                 time)
+                # write_conections(arq,
+                #                  interface['connections'],
+                #                  interfaces.index(interface),
+                #                  time)
                 write_output_interface(output_interface,
                                         interface,
                                         interfaces.index(interface),
                                         response['start_time'])
-                arq.write('\n')
-    arq.close()
-    arq = open('final.txt', "r")
-    write_graph(arq)
+                # arq.write('\n')
+    # arq.close()
+    # arq = open('final.txt', "r")
+    # write_graph(arq)
 
 
 get_connections()
